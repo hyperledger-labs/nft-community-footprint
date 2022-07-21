@@ -1,0 +1,10 @@
+
+# Dependency directories
+application/node_modules
+application/wallet
+application/package-lock.json
+chaincode-javascript/
+
+.idea
+.env
+.ppt
