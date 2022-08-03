@@ -1,0 +1,7 @@
+# Dependency directories
+application/node_modules
+application/wallet
+
+.idea
+.env
+.ppt
