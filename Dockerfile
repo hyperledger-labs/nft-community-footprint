@@ -3,7 +3,7 @@ FROM node:14 AS build
 WORKDIR /app
 
 RUN mkdir -p /app/test-network/organizations/peerOrganizations/
-COPY --chown=node:node . /app/nft-erc721/application/
+COPY --chown=node:node ./application /app/nft-erc721/application/
 
 WORKDIR /app/nft-erc721/application/
 
@@ -27,4 +27,4 @@ RUN npm link
 EXPOSE 3000  
 
 USER node
-ENTRYPOINT [ "dumb-init", "--", "/bin/bash"]
+ENTRYPOINT [ "dumb-init", "--", "node", "src/server.js"]
