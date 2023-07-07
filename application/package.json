@@ -34,7 +34,7 @@
     "getconfig": "^4.5.0",
     "go-ipfs": "^0.8.0",
     "inquirer": "^8.0.0",
-    "ipfs-http-client": "^50.1.2",
+    "ipfs-http-client": "^60.0.1",
     "concat-buffers": "^1.0.0",
     "base64-utf8-array": "^1.0.0",
     "json-colorizer": "^2.2.2",
