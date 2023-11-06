@@ -1,3 +1,7 @@
+![Status Badge](https://img.shields.io/badge/Status-archived-red)
+
+**NOTE:** This lab has been archived and is no longer being maintained.
+
 # NFT Community Footprint
 
 ## Call for volunteers
